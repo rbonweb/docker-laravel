@@ -1,5 +1,9 @@
 Commands to run the project of laravel with docker
 
+[]: # Replace this arguments in docker-compose.yml
+ARG user -- default system username
+ARG uid -- default 1000
+
 []: # Clone the project
 git clone
 

@@ -13,6 +13,8 @@ services:
     volumes:
       - ./app:/var/www
       - ./config/php/php.ini:/usr/local/etc/php/php.ini
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
   # Web Server
   web:
@@ -26,3 +28,5 @@ services:
       - "app"
     ports:
       - 8000:80
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
