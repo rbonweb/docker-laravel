@@ -1,3 +1,5 @@
+Docker setup for local Laravel development
+
 Commands to run the project of laravel with docker
 
 []: # Replace this arguments in docker-compose.yml
